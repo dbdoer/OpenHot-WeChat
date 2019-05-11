@@ -8,10 +8,10 @@ Page({
     
     index:1,  // 当前页
     list:[],
-    cloudUrl:'http://xxxxxx/spider/githubSpider/getData',
+    cloudUrl:'https://www.xxx.xxx/spider/githubSpider/getData',
 
     rankIndex: 0,
-    rank: ['总榜', '周榜', '月榜', '年榜'],
+    rank: ['总榜', '周榜', '月榜', '季榜','年榜'],
     rankArray: [
       {
         id: 0,
@@ -27,6 +27,10 @@ Page({
       },
       {
         id: 3,
+        name: '季榜'
+      },
+      {
+        id: 4,
         name: '年榜'
       }
     ],
